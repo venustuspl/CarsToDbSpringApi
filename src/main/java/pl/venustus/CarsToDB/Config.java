@@ -18,7 +18,7 @@ public class Config {
         dataSourceBuilder.url("jdbc:mysql://localhost:3306/task_crud?serverTimezone=Europe/Warsaw&SSL=False");
         dataSourceBuilder.username("nazwa_uzytkownika");
         dataSourceBuilder.password("twoje_haslo");
-        dataSourceBuilder.driverClassName("com.mysql.jdbc.Driver");
+        dataSourceBuilder.driverClassName("com.mysql.cj.jdbc.Driver");
         return dataSourceBuilder.build();
     }
 
