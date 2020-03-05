@@ -12,12 +12,6 @@ import javax.sql.DataSource;
 @Configuration
 public class Config {
 
-    @EventListener(ApplicationReadyEvent.class)
-    public static void dbInit() {
-        String sql = "CREATE TABLE CAR "
-
-    }
-
     @Bean
     public DataSource getDataSource() {
         DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
