@@ -20,6 +20,8 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	compile group: 'com.vaadin', name: 'vaadin', version: '15.0.0'
+
 }
 
 test {
